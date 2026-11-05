@@ -1,0 +1,74 @@
+{
+  "baseline": "2026-10-15; not a latest-version claim",
+  "firmware_archive": {
+    "source_url": "https://github.com/yonggedebaqi/ponwrt/releases/download/pangzi/ponwrt-an7581.tar.zst",
+    "sha256": "6c19fb747ea1bb7fe41b2a4449a5e9ab3ee238a9356cfe28436e059cded27af2",
+    "bytes": 347033098
+  },
+  "files": [
+    {
+      "file": "bootloader/pbs05-v2026.07-4/an7581-nokia-xg-040g-md-bl31-u-boot.fip",
+      "bytes": 370688,
+      "sha256": "fa1a58332eab5d1ff3910392931f78f741c6c2dafaa4d4978402d6d8bde446e9",
+      "source_url": "https://github.com/pbs05/uboot-an758x/releases/download/v2026.07-4/an7581-nokia-xg-040g-md-bl31-u-boot.fip"
+    },
+    {
+      "file": "bootloader/pbs05-v2026.07-4/an7581-nokia-xg-040g-md-preloader.bin",
+      "bytes": 113664,
+      "sha256": "918909a7009fdaaaa4dc28b5d88082dfd9c282b44a1714a7ac9d6c7cef78462b",
+      "source_url": "https://github.com/pbs05/uboot-an758x/releases/download/v2026.07-4/an7581-nokia-xg-040g-md-preloader.bin"
+    },
+    {
+      "file": "migration/Stock2UBI-v0.1.14/an758x-stock2ubi",
+      "bytes": 1014744,
+      "sha256": "a4e08ab8df5c0f12e314b885ab2280b19cd702fe0d371e8fe5fb20b466334f41",
+      "source_url": "https://github.com/pbs05/an758x-stock2ubi/releases/download/v0.1.14/an758x-stock2ubi"
+    },
+    {
+      "file": "firmware/PonWrt-MD-20261015/ponwrt-airoha-an7581-nokia_xg-040g-md-ubi-squashfs-sysupgrade.itb",
+      "bytes": 14803245,
+      "sha256": "40d3762b71248b418bf00eccc5d2042626af94995fa7a4ad26b1c4147ec4c95e"
+    },
+    {
+      "file": "firmware/PonWrt-MD-20261015/ponwrt-airoha-an7581-nokia_xg-040g-md-ubi-initramfs-recovery.itb",
+      "bytes": 12582912,
+      "sha256": "96b0ab7b4ce57dc97b833316f5510b0c6ec86eeead3a9d2f999f4d4d62b693d7"
+    },
+    {
+      "file": "tools/PuTTY-0.85/putty.exe",
+      "bytes": 1706136,
+      "sha256": "d01fdb5aae8f112526040a39b0bfb9e27d813003178645e65f8d1cfdb2a26c87",
+      "source_url": "https://the.earth.li/~sgtatham/putty/0.85/w64/putty.exe"
+    },
+    {
+      "file": "tools/PuTTY-0.85/plink.exe",
+      "bytes": 1036448,
+      "sha256": "969f36879d5716aa1a9811f43a6a6510e8f08372dbeb9695b810b9c776f39c75",
+      "source_url": "https://the.earth.li/~sgtatham/putty/0.85/w64/plink.exe"
+    },
+    {
+      "file": "tools/PuTTY-0.85/pscp.exe",
+      "bytes": 1035400,
+      "sha256": "4275310c04b4dd00cc139f93b932267df7816fda8e362d4a845660129264f3a1",
+      "source_url": "https://the.earth.li/~sgtatham/putty/0.85/w64/pscp.exe"
+    },
+    {
+      "file": "downloads/WinSCP-6.7-Portable.zip",
+      "bytes": 8832885,
+      "sha256": "fef88545873aca4b353ac322b1e2702f2feadf30758b713f5fc7e2bed60f7662",
+      "source_url": "https://winscp.net/download/WinSCP-6.7-Portable.zip/download"
+    },
+    {
+      "file": "downloads/tftpd64_portable_v4.74.zip",
+      "bytes": 587589,
+      "sha256": "3ad38a71c0d7d42915429f8f02945e27bcf88161ad1028980d1364af8f76bf22",
+      "source_url": "https://github.com/PJO2/tftpd64/releases/download/v4.74/tftpd64_portable_v4.74.zip"
+    },
+    {
+      "file": "downloads/teraterm-5.7.1-x64.zip",
+      "bytes": 16148516,
+      "sha256": "68521f36a07754396eb925aabb0cd1f2092b15fffac74d330b428952552adafc",
+      "source_url": "https://github.com/TeraTermProject/teraterm/releases/download/v5.7.1/teraterm-5.7.1-x64.zip"
+    }
+  ]
+}
