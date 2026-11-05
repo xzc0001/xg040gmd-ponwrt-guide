@@ -148,5 +148,5 @@ for s in SECTIONS:
         elif kind in ('steps','bullets'):plain.extend([f'{i+1}. {x}' if kind=='steps' else '- '+x for i,x in enumerate(val)]+[''])
         elif kind=='code':plain.extend([val['title'],val['text'],''])
         elif kind=='table':plain.extend([' | '.join(val['columns'])]+[' | '.join(row) for row in val['rows']]+[''])
-(OUT/'manual.txt').write_text('\n'.join(plain),encoding='utf-8-sig')
+(OUT/'manual.txt').write_text('\n'.join(plain),encoding='utf-8')
 print(json.dumps(dict(kit=str(KIT),steps=len(FLOW),sections=len(SECTIONS),faults=len(data['faults']),html_bytes=(OUT/'index.html').stat().st_size),ensure_ascii=False))
